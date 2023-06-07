@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center border-b-2 py-6 box-border">
+    <div className="flex justify-between items-center border-b-2 py-3 box-border">
       {/* Logo and Links */}
       <div className="flex gap-10 items-center font-semibold">
         <h1 className="text-lg font-bold">Tripster</h1>
