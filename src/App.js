@@ -76,10 +76,17 @@ function App() {
       </div>
 
       <Rooms />
-      <div className="flex">
-        <h1>Reviews</h1>
-        <Ratings />
-        <Reviews />
+
+      <div className="my-6">
+        <h1 className="font-bold">Reviews</h1>
+        <div className="flex justify-between mt-3 gap-10">
+          <div className="flex-[30%]">
+            <Ratings />
+          </div>
+          <div className="flex-[70%]">
+            <Reviews />
+          </div>
+        </div>
       </div>
     </div>
   );
